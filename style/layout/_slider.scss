@@ -1,0 +1,73 @@
+.slider {
+    margin: auto;
+    margin-bottom: 2.5rem;
+    max-width: 115rem;
+    overflow: hidden;
+    height: 70rem;
+    position: relative;
+    -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+
+    div {
+        display: flex;
+        
+    }
+    
+
+    .container {
+        width: 100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        overflow: hidden;
+    }
+
+    .slide {
+        width: 100%;
+        transform: translateX(0%);
+        filter: grayscale(100%);
+        transition: 1.2s ease-in;
+    }
+
+}
+
+.arrows {
+
+    .fa-arrow-right {
+        position: absolute;
+        top: 294rem;
+        right: 68.8rem;
+       font-size: 4.5rem;
+       border: .2rem solid #f26631;
+       color: #f26631;
+       padding: 2rem;
+        border-radius: .5rem;
+       cursor: pointer;
+    }
+
+    .fa-arrow-left {
+        position: absolute;
+        top: 294rem;
+        left: 70.5rem;
+       font-size: 4.5rem;
+       border: .2rem solid #f26631;
+       color: #f26631;
+       padding: 2rem;
+        border-radius: .5rem;
+       cursor: pointer;
+    }
+
+}
+
+.slider-dots {
+
+    .dot {
+        padding: 0rem .9rem;
+        background: #c5c5c5;
+        margin-right: 1rem;
+        border-radius: 50%;
+        transition: 0.2s ease-in;
+    }
+
+    
+}

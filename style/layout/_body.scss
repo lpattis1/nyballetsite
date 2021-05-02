@@ -1,0 +1,114 @@
+// about
+.about-cards {
+    font-size: 1.6rem;
+    color: black;
+    display: flex;
+    background: #F0F0F0;
+    align-items: center;
+}
+
+.about-cards .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 115rem;
+    margin: auto;
+    margin-top: 13rem;
+}
+
+.about-cards .card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 115rem;
+    margin: auto;
+    margin-bottom: 15rem;
+}
+
+.about-cards .image-left img {
+    height: 45rem;
+    cursor: pointer;
+    margin-right: 3rem;
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.about-cards .info-right .card-title {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+
+.about-cards .info-right .card-subtitle {
+    margin-bottom: 1.5rem;
+}
+
+.about-cards .info-right .card-title .bold {
+    font-weight: 600;
+}
+
+.about-cards .info-right .card-description {
+    font-size: 1.7rem;
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+// card 2
+
+.about-cards .image-right img {
+    height: 45rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.about-cards .info-left .card-title {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+
+.about-cards .info-left .card-subtitle {
+    margin-bottom: 1.5rem;
+}
+
+.about-cards .info-left .card-title .bold {
+    font-weight: 600;
+}
+
+.about-cards .info-left .card-description {
+    font-size: 1.7rem;
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.sale-notice{
+    background: #f26631;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100rem);
+    transition: 500ms;
+
+    .sale {
+        font-size: 1.7rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .close-sale {
+        position: absolute;
+        right: 2rem;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+}

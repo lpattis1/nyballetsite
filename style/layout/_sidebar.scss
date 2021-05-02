@@ -1,0 +1,90 @@
+/* sidebar fixed */
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .sidebar {
+      background: white;
+      width: 17rem;
+      height: 100%;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 5;
+      text-align: center;
+      
+  }
+
+  .sidebar .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      flex-grow: 1;
+  }
+
+  .sidebar .menu {
+      margin-top: 7rem;  
+      margin-bottom: 2rem;
+      cursor: pointer;
+  }
+
+  .sidebar .menu2 {
+    margin-top: 7rem;  
+    margin-bottom: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+  .sidebar .fa-bars {
+     font-size: 3rem;
+      color: black;
+  }
+
+  .sidebar .fa-times {
+    font-size: 3rem;
+     color: black;
+     display: none;
+ }
+
+.sidebar .tickets{
+    font-size: 2.5rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.sidebar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sidebar .logo img {
+      height: 8rem;
+}
+
+.sidebar .bottom {
+    margin-bottom: 5rem;
+}
+
+.sidebar .search {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.sidebar .sign-in h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.ticket-search-mobile {
+    display: none;
+}

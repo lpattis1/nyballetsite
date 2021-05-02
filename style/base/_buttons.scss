@@ -1,0 +1,70 @@
+  /* buttons */
+
+  .info-slider .btn-area button {
+    border: none;
+    padding: 2.5rem 7rem;
+    border-radius: .5rem;
+    background: white;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+  .info-slider .btn-area .explore-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(black, .2);
+    transition: .5s ease-in;
+    background: rgb(199, 199, 199);
+  }
+
+  .explore-btn::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+    transition: .5s ease-in;
+    background: rgb(66, 66, 66);
+}
+
+.info-right .play-video {
+  border: .1rem solid #f26631;
+    padding: 2rem 4rem;
+    border-radius: .5rem;
+    background: none;
+    color: #f26631;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.info-right .play-video:hover {
+  transform: translateY(-3px);
+  background: #f26631;
+  box-shadow: 0 1rem 2rem rgba(black, .2);
+  transition: .5s ease-in;
+  color: white;
+}
+
+.info-left .learn-more {
+  border: .1rem solid #f26631;
+    padding: 2rem 4rem;
+    border-radius: .5rem;
+    background: none;
+    color: #f26631;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.info-left .learn-more:hover {
+  transform: translateY(-3px);
+  background: #f26631;
+  box-shadow: 0 1rem 2rem rgba(black, .2);
+  transition: .5s ease-in;
+  color: white;
+}

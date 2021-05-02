@@ -1,0 +1,331 @@
+@media only screen and (max-device-width: 480px) {
+    // sidebar
+    .main {
+        .sidebar {
+
+            background: white;
+            width: 100%;
+            height: 15%;
+            position: fixed;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: flex-start;
+            z-index: 5;
+            text-align: center;
+
+            .container {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+                flex-grow: 1;
+
+                .top {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 2rem;
+                    position: relative;
+
+                    .tickets {
+                        display: none;
+                    }
+
+                    .menu {
+                        position: absolute;
+                        left: -3.2rem;
+                        top: -5.4rem;
+                        font-size: 1rem;
+                        z-index: 50;
+                    }
+
+                    .menu2 {
+                        display: none;
+                        position: absolute;
+                        left: -3.2rem;
+                        top: -5.4rem;
+                        z-index: 100;
+                    }
+
+                }
+
+                .logo {
+                    position: absolute;
+                    left: 1rem;
+                    bottom: 2.4rem;
+                    margin-left: 2rem;
+
+                    .nyb-logo {
+                        height: 3.8rem;
+                    }
+                }
+
+                .bottom {
+
+                    .search {
+                        display: none;
+                    }
+
+                    .sign-in {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .main {
+        .sliding-sidebar {
+
+            width: 25rem;
+        
+            .container {
+    
+                .links {
+                    margin-bottom: 2rem;
+    
+                    li {
+                        font-size: 1.4rem;
+                        font-weight: 600;
+                        margin-bottom: 1.3rem;
+                    }
+    
+                   .ticket-search-mobile {
+                       display: flex;
+                       align-items: center;
+                       justify-content: center;
+                       margin: 0 auto;
+                       margin-bottom: 5rem;
+                       text-align: center;
+    
+                       .fa-search {
+                           font-size: 1.8rem;
+                           border: .2rem solid black;
+                           padding: 1rem;
+                           border-radius: .5rem;
+                       }
+    
+                       .search-mobile {
+                           padding: 1.2rem 2rem;
+                           border: none;
+                           background: none;
+                           border-bottom: .2rem solid black;
+                           font-size: 1.4rem;
+                           width: 68%;
+                       }
+                   } 
+                }
+    
+                .subscribe {
+    
+                    margin-bottom: 3rem;
+                    margin-top: 5rem;
+    
+                    p {
+                        font-size: 1.5rem;
+                    }
+                }
+    
+                .socials {
+    
+                    li {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    
+    .main {
+        .sliding-sidebar2 {
+            width: 25rem;
+
+
+            .container {
+                padding-top: 0;
+                
+                .links-1 {
+    
+                    .change-li {
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                    }
+                }
+    
+                .links-2 {
+    
+                    .change-li {
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                    }
+                }
+    
+                .links-3 {
+    
+                    .change-li {
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                    }
+                }
+    
+                .links-4 {
+    
+                    .change-li {
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                    }
+                }
+    
+                .links-5 {
+    
+                    .change-li {
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                    }
+                }
+    
+                .links-6 {
+    
+                    .change-li {
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .about-cards {
+        flex-direction: column;
+
+        .container {
+            flex-direction: column;
+            margin-top: 5rem;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 7rem;
+
+                .info-right, .info-left {
+                    text-align: center;
+                    margin-top: 2rem;
+
+                    p {
+                        font-size: 1.4rem;
+                        width: 100%;
+                    }
+
+                    .card-title {
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+
+            .card:nth-child(2) {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            .image-left {
+
+                img {
+                    height:100%;
+                    width: 100%;
+                    margin: auto;
+                    animation: none;
+                }
+            }
+
+            .image-right {
+
+                img {
+                    height:100%;
+                    width: 100%;
+                    margin: auto;
+                    animation: none;
+                }
+            }
+
+            .slider {
+                width: 100%;
+                height: 20rem;
+                animation: none;
+            }
+
+            .arrows {
+                
+                .fa-arrow-left {
+                    left: 0;
+                    top: 208.5rem;
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+
+                .fa-arrow-right {
+                    right: 0;
+                    top: 208.5rem;
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .main {
+
+        .info-slider {
+
+            .sale-notice {
+                padding: 2.5rem;
+
+                .sale {
+                    font-size: 1.2rem;
+                    position: absolute;
+                    left: 2rem;
+                }
+
+                .close-sale {
+                    font-size: 1.8rem;
+                    right: 1rem;
+                }
+            }
+
+            .container {
+
+                .bg-slide {
+
+                    .landing {
+
+                        h1 {
+                            font-size: 3.5rem;
+                        }
+
+                        h2 {
+                            font-size: 2rem;
+                        }
+
+                        .btn-area {
+                            
+                            button {
+                                padding: 2rem 3rem;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
