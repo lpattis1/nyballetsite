@@ -199,6 +199,27 @@ li {
   color: white;
 }
 
+.info-bottom .learn-more {
+  border: 0.1rem solid #f26631;
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+  background: none;
+  color: #f26631;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.info-bottom .learn-more:hover {
+  transform: translateY(-3px);
+  background: #f26631;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease-in;
+  color: white;
+}
+
 .about-cards {
   font-size: 1.6rem;
   color: black;
@@ -311,6 +332,23 @@ li {
 
 .info-bottom {
   margin-top: 3rem;
+}
+.info-bottom .card-title {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+}
+.info-bottom .card-title .bold {
+  font-weight: 600;
+}
+.info-bottom .card-subtitle {
+  margin-bottom: 1.5rem;
+}
+.info-bottom .card-description {
+  font-size: 1.7rem;
+  width: 90%;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 /* sidebar fixed */
@@ -652,6 +690,27 @@ li {
     top: 208.5rem;
     font-size: 1rem;
     padding: 1rem;
+  }
+  .about-cards .container .info-bottom {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .about-cards .container .info-bottom .card-title {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+  }
+  .about-cards .container .info-bottom .card-title .bold {
+    font-weight: 600;
+  }
+  .about-cards .container .info-bottom .card-subtitle {
+    margin-bottom: 1.5rem;
+  }
+  .about-cards .container .info-bottom .card-description {
+    font-size: 1.4rem;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 2rem;
   }
 }
 @media only screen and (max-device-width: 480px) {

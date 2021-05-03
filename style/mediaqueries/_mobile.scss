@@ -278,6 +278,32 @@
                     padding: 1rem;
                 }
             }
+
+            .info-bottom {
+                margin-top: 3rem;
+                text-align: center;
+            
+                .card-title {
+                    font-size: 3.5rem;
+                    font-weight: 400;
+                    margin-bottom: 0.6rem;
+            
+                    .bold {
+                        font-weight: 600;
+                    }
+                }
+            
+                .card-subtitle {
+                    margin-bottom: 1.5rem;
+                }
+            
+                .card-description {
+                    font-size: 1.4rem;
+                    width: 100%;
+                    font-weight: 400;
+                    margin-bottom: 2rem;
+                }
+            }
         }
     }
 }

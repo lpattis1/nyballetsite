@@ -68,3 +68,24 @@
   transition: .5s ease-in;
   color: white;
 }
+
+.info-bottom .learn-more {
+  border: .1rem solid #f26631;
+    padding: 2rem 4rem;
+    border-radius: .5rem;
+    background: none;
+    color: #f26631;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.info-bottom .learn-more:hover {
+  transform: translateY(-3px);
+  background: #f26631;
+  box-shadow: 0 1rem 2rem rgba(black, .2);
+  transition: .5s ease-in;
+  color: white;
+}
