@@ -337,6 +337,7 @@ li {
   font-size: 5rem;
   font-weight: 400;
   margin-bottom: 0.6rem;
+  text-transform: uppercase;
 }
 .info-bottom .card-title .bold {
   font-weight: 600;
