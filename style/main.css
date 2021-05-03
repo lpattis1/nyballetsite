@@ -309,6 +309,10 @@ li {
   cursor: pointer;
 }
 
+.info-bottom {
+  margin-top: 3rem;
+}
+
 /* sidebar fixed */
 .main {
   display: flex;
