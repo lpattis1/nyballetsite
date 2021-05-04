@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/style/main.css">
 </head>
 <body>
@@ -233,7 +234,7 @@
     <section class="about-cards">
         <div class="container">
 
-            <div class="card">
+            <div data-aos="fade-right"  data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="1200" data-aos-once="true" data-aos-mirror="true" class="card">
                 <div class="image-left">
                     <img src="/img/slide1.jpg" alt="" class="card-img">
                 </div>
@@ -245,7 +246,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div data-aos="fade-left"  data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="1200" data-aos-once="true" data-aos-mirror="true" class="card">
                 <div class="info-left">
                     <h2 class="card-title"><span class="bold">DIGITAL</span> SEASON</h2>
                     <h4 class="card-subtitle">February – June 2021</h4>
@@ -258,7 +259,7 @@
                 </div>
             </div>
 
-            <div class="slider">
+            <div data-aos="fade"  data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="1200" data-aos-once="true" data-aos-mirror="true" class="slider">
                 <div class="slider-container">
                     <img src="/img/slides-1.jpg" alt="" class="slide">
                     <img src="/img/slides-2.jpg" alt="" class="slide">
@@ -280,7 +281,7 @@
                 <span class="dot"></span>
                 <span class="dot last"></span>
             </div>
-            <div class="info-bottom">
+            <div data-aos="fade"  data-aos-easing="ease-in-out" data-aos-delay="50" data-aos-duration="1200" data-aos-once="true" data-aos-mirror="true" class="info-bottom">
                 <h2 class="card-title"><span class="bold">The Ballet</span> Experience</h2>
                 <h4 class="card-subtitle">Experience NYC Ballet</h4>
                 <p class="card-description">We are one of the foremost dance companies in the world, with a roster of spectacular dancers and an unparalleled repertory. The Company was founded in 1948 by George Balanchine and Lincoln Kirstein, and it quickly became world-renowned for its athletic and contemporary style.
@@ -307,5 +308,12 @@
 
     <script src="main.js"></script>
     <script src="slider.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        offset: 400,
+        duration: 1000 
+      });
+    </script>
 </body>
 </html>

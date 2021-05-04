@@ -330,6 +330,10 @@ let mobile = window.matchMedia("(max-device-width: 480px)");
 
 function makeMobileFriendly(mobile) {
   if (mobile.matches) {
+    const animationCard = document.querySelectorAll(".card");
+    animationCard.forEach((card) => {
+      card.setAttribute("data-aos", "fade");
+    });
     menu.addEventListener("click", function () {
       slideMenu.style.transform = `translateX(0%)`;
     });
